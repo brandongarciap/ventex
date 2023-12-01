@@ -1,0 +1,298 @@
+body{
+    font-family: 'Montserrat', sans-serif;}
+    
+    header{
+        background: #bbbbbb;
+        padding: 20px 0;
+    }
+    
+    
+    nav{
+        position: absolute;
+        top: 70px;
+        right: 200px;
+    align-content: center;
+    
+    }
+    
+    nav li{
+        display: inline-block;
+        margin: 0 0 0 15px;
+    }
+    
+    nav a{
+        text-transform: uppercase;
+        color: black;
+        font-weight:bold;
+        font-size: 20px;
+        text-decoration: none;
+        padding-right: 1em;
+    
+    }
+    
+    .productos{
+        width: 940px;
+       margin: 0 auto;
+       padding: 50px;
+       text-align: center;
+    
+    }
+    .productos li{
+        display: inline-block;
+        text-align: center; 
+        width: 30%;
+        vertical-align: top;
+        background-color: rgba(225, 146, 0, 0.471);
+        margin: 0 .5%;
+        border-color:  rgb(0, 0, 0);
+        border-width: 3px;
+        border-style: solid;
+        border-radius: 10px;
+    
+    }
+    
+    .productos li:hover{
+        border-color: #ff0000;
+    }
+    .productos li:hover h2 {
+        font-size: 33px;
+    }
+    .productos li:active{
+        border-color: #05ff05;
+    }
+    
+    .productos h2{
+        font-size: 30px;
+        font-weight: bold;
+    
+    }
+    
+    .producto-descripcion{
+        font-size: 18px;
+    }
+    
+    .producto-precio{
+        font-size: 22px;
+        font-weight: bold;
+        margin-top: 10px;
+    
+    }
+    
+    nav a:hover{
+        color: #ff0000;
+        text-decoration: underline;
+    }
+    footer{
+        text-align: center;
+        background-color: #CCCCCC ;
+        padding: 20px;
+    }
+    .copyright{
+        color:#000000 ;
+        font: size 14px;
+        margin: 20px;
+    
+    }
+    
+    main{
+        width: 940px;
+        margin: 0 auto;
+    }
+    form{
+        margin: 40px 0;
+    }
+    form label{
+        display: block;
+        font-size: 20px;
+        margin: 0 0 10px;
+    }
+    form label, form legend {
+        display:block;
+        font-size: 20px;
+        margin: 0 0 10px;
+    }
+    .input-padron {
+        display: block;
+        margin: 0 0 20px;
+        padding: 10px 25px;
+        width: 50%;
+    }
+    .enviar{
+        width: 40%;
+        padding: 15px 0;
+        font-size: 18px;
+        font-weight: bold;
+        color:white;
+        background: orange;
+        border-radius: 5px;
+        transition: 1s all;
+        cursor:pointer;
+    }
+    .enviar:hover {
+        background: darkorange;
+        transform: scale(1.01);
+    }
+    table {
+        margin: 40px 40px;
+    }
+    
+    thead {
+        background: #555555;
+        color: white;
+        font-weight: bold;
+        margin: auto;
+        padding: auto;
+    }
+    
+    td, th {
+        border: 1px solid #000000;
+        padding: 8px 15px;
+    }
+    /*Aquí inicia el CSS para nuestra home*/
+    .lalo{
+    border: 5px;
+    border-color:  #000000;
+    width: 100px;}
+    
+    .banner{
+        width: 50%;
+    }
+    
+    
+    
+    .titulo-principal{
+        text-align: center;
+        font-size: 2em;
+        margin: 0 0 1em;
+        clear:left;
+        overflow: hidden;
+    }
+    
+    .texto{
+        font-weight: bold;
+        padding: 1em 5em;
+    }
+    .principal p{
+        margin: 0 0 1em;
+    }
+    
+    
+    .principal strong{
+        font-weight: bold;
+    }
+    
+    
+    .principal em{
+        font-style: italic;
+    }
+    
+    
+    .vapo{
+        width: 129px;
+        float:left;
+        margin: 0 20px 20px 0;
+        clear: left;
+        padding: 1em 5em;
+    
+    }
+    .titula{
+        padding: .5em;
+    }
+    .diferenciales {
+        padding: 3em 0;
+        background: #888888;
+    }
+    
+    .contenido-diferenciales {
+        width: 640px;
+        margin: 0 auto;
+        padding: 0  auto;   
+    }
+    
+    .lista-diferenciales {
+        width: 40%;
+        display: inline-block;
+        vertical-align: top;
+    }
+    
+    .items {
+        line-height: 1.5;
+    }
+    
+    .items:first-child {
+        font-weight: bold;
+    }
+    .items:before{
+        content:"★"
+    }
+    
+    .imagen-diferenciales {
+        width: 26%;
+        box-shadow: 10px 10px 10px 2px #000000;
+    }
+    
+    
+    .mapa-contenido {
+        width: auto;
+        margin: 0 auto;
+    }
+    
+    .principal {
+        padding: 10 px;
+        background: #FEFEFE;
+        width: auto;
+        margin: 0 auto;
+    }
+    .mapa{
+        padding: 3em 0;
+            background: linear-gradient(#FEFEFE, #ff1313);
+        }
+    
+    .mapa p {
+        margin: 0 0 2em;
+        text-align: center;
+    }
+    
+    .footer{
+        background-color: #555555;
+        border-radius: 10px;
+    }
+    
+    
+    .video {
+        width: 560px;
+        height: 320px; /* Ajusta la altura según tus necesidades */
+        margin:  3em auto;
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0px 0px 10px 10px #000000
+    }
+    
+    @media screen and (max-width:480px) {
+        h1{
+            text-align: center;
+        }
+        nav{
+            position: static;
+        }
+    
+       .caja, .principal, .mapa-contenido, .contenido-diferenciales, .lista-diferenciales .imagen-diferenciales, .video{
+        width: auto;
+       }
+       .lista-diferenciales, .imagen-diferenciales{
+        width: 100%;
+       }
+       .video{
+        width: 100%;
+        padding-inline-start: 1em;}
+        .instagram{
+            padding: 10em 10em;
+        }   
+        .copyright{
+            padding: 1em 1em;
+        }
+      
+        
+    }
